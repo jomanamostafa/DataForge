@@ -1,0 +1,28 @@
+# Data analysis and manipulation
+pandas>=1.3.0
+
+# Numerical computing
+numpy>=1.21.0
+
+# Statistical data visualization
+seaborn>=0.11.0
+
+# Plotting and charts
+matplotlib>=3.4.0
+
+# Modern UI widgets for tkinter
+customtkinter>=5.0.0
+
+# Machine learning algorithms
+scikit-learn>=1.0.0
+
+# Excel file support (.xlsx/.xls)
+openpyxl>=3.0.0
+
+# Image processing (for matplotlib backend)
+Pillow>=8.0.0
+#CMD commands:-
+mkdir DataForge && cd DataForge
+echo # Data analysis and manipulation > requirements.txt && echo pandas>=1.3.0 >> requirements.txt && echo. >> requirements.txt && echo # Numerical computing >> requirements.txt && echo numpy>=1.21.0 >> requirements.txt && echo. >> requirements.txt && echo # Statistical data visualization >> requirements.txt && echo seaborn>=0.11.0 >> requirements.txt && echo. >> requirements.txt && echo # Plotting and charts >> requirements.txt && echo matplotlib>=3.4.0 >> requirements.txt && echo. >> requirements.txt && echo # Modern UI widgets for tkinter >> requirements.txt && echo customtkinter>=5.0.0 >> requirements.txt && echo. >> requirements.txt && echo # Machine learning algorithms >> requirements.txt && echo scikit-learn>=1.0.0 >> requirements.txt && echo. >> requirements.txt && echo # Excel file support (.xlsx/.xls) >> requirements.txt && echo openpyxl>=3.0.0 >> requirements.txt && echo. >> requirements.txt && echo # Image processing (for matplotlib backend) >> requirements.txt && echo Pillow>=8.0.0 >> requirements.txt
+pip install -r requirements.txt
+python dashboard.py
